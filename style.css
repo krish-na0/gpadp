@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.toparea{
+    background: #B35550;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+.titlearea{
+    background:#F2C38B ;
+    padding: 40px 0;
+    text-align: center;
+}
+.titlearea img{
+    width: 100px;
+    height: auto;
+}
+.titlearea h1{
+    font-weight: 700;
+    color: #74353f;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+}
+.navarea{
+    background: #F8F9FA !important;
+    /* text-align: center !important; */
+    padding-left:170px !important;
+}
+.nav-link{
+    /* background:rgb(255, 0, 0) !important; */
+    font-weight: 100 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}
+/* nav bar width,,,language change button */
+.principalarea{
+    background:white ;
+    padding: 50px 0;
+    text-align: center;
+}
+.principalarea p{
+    text-align: justify;
+}
+.principal_sig{
+    text-align: right !important;
+    font-weight: 700;
+}
+.principal_img{
+    width: 300px !important;
+    height: 300px;
+    margin-right:10px;
+    float:left;
+}
+.principal_img img{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px ;
+}
+.coursearea{
+    background: url(image/lib.webp);
+    background-size: contain;
+    padding: 60px 0;
+    text-align: center;
+}
+.coursearea h3{
+    font-size: 24px !important;
+    padding: 0 !important;
+}
+.box{
+    background: white;
+    border: 2px solid #d5d5d5;
+    margin: 16px;
+    width: 274px;
+    height: 293px;
+    padding: 16px;
+}
+.box img{
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+    margin: 12px;
+    margin-bottom: 16px;
+    transition: all 2s;
+}
+.box img:hover{
+    transform: rotate(360deg);
+}
+.coursearea h3{
+    color: #2a2a2a;
+    font-size: 20px !important;
+    font-weight: 500;
+    padding: 6px 0 !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    text-align: center !important;
+}
+.coursearea p{
+    background: white;
+    padding: 20px 0;
+}
+.alumniarea{
+    width: 100%;
+    height: 300px;
+    background:url(image/alumnibg.jpg) ;
+    background-size:contain;
+    background-position: bottom;
+    position: relative;
+}
+.alumniarea a{
+position: absolute;
+top: 70px;
+left: 550px;
+}
+.footerarea{
+    text-align: center;
+    background:rgb(78, 78, 78);
+    background-size: contain;
+    padding:50px;
+    text-align: left;
+}
+.footerarea h5{
+    color:white;
+}
+.footerarea p{
+    color: #f2c38b;
+    margin: 0;
+}
+.footerarea span{
+    color: #d37f57;
+}
+.footerarea a:link,.footerarea a:visited{
+    color: #d37f57;
+    display: block;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+}
+.designer-name{
+    color: #fff;
+    text-align: center !important;
+}
+.designer-name a{
+    display: inline !important;
+
+}
